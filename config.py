@@ -1,0 +1,3 @@
+DEBUG = True
+SQLALCHEMY_DATABASE_URI = 'postgresql:///cms_local'
+SQLALCHEMY_TRACK_MODIFICATIONS = True

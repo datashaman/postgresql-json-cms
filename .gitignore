@@ -1,0 +1,5 @@
+*.pyc
+.sass-cache/
+cms/static/.webassets-cache/
+cms/static/styles/
+static/styles/

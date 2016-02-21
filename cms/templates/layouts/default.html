@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    {% assets 'style' %}
+    <link rel="stylesheet" href="{{ ASSET_URL }}">
+    {% endassets %}
+</head>
+<body class="layout-default">
+    <header>
+        <nav></nav>
+        Header
+    </header>
+
+    <article>
+        {% block content %}
+        {% endblock %}
+    </article>
+
+    <footer>Footer</footer>
+</body>
+</html>

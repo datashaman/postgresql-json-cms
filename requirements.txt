@@ -1,0 +1,8 @@
+Flask
+Flask-Assets
+Flask-Script
+Flask-SqlAlchemy
+blinker
+cssmin
+jsmin
+psycopg2
