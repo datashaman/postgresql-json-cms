@@ -74,6 +74,9 @@ class DocumentManager(object):
 
     @classmethod
     def delete(cls, existing):
+        if not existing.current:
+            raise IntegrityError('may only delete current revision')
+
         return cls.update(existing, { '_deleted': True })
 
 class Document(db.Model):
